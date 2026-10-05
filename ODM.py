@@ -349,7 +349,7 @@ if __name__ == '__main__':
     initApp()
 
     #Ejemplo
-    m = MiModelo(nombre="Pablo", apellido="Ramos", edad=18)
+    m = model_name(nombre="Pablo", apellido="Ramos", edad=18)
     m.save()
     m.nombre="Pedro"
     print(m.nombre)
